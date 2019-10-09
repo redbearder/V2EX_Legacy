@@ -1,0 +1,21 @@
+#  Project Babel
+#  Author: Livid Torvalds
+#  File: /htdocs/robots.txt
+#  Usage: Robots' rules
+#  Format: 1 tab indent(4 spaces), LF, UTF-8, no-BOM
+#
+#  Subversion Keywords:
+#
+#  $Id: robots.txt 12 2005-10-30 21:22:28Z livid $
+#  $LastChangedDate: 2005-10-31 05:22:28 +0800 (Mon, 31 Oct 2005) $
+#  $LastChangedRevision: 12 $
+#  $LastChangedBy: livid $
+
+User-agent: *
+Disallow: /expense/view.vx
+Disallow: /online/view.vx
+Disallow: /login.vx
+Disallow: /logout.vx
+Disallow: /user/create.vx
+Disallow: /user/modify.vx
+Disallow: /user/update.vx

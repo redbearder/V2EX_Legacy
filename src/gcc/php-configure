@@ -1,0 +1,27 @@
+./configure \
+--prefix=/usr/local/php-5.1 \
+--with-zlib \
+--with-xml \
+--with-gettext=/opt/local \
+--with-gd \
+--with-jpeg-dir=/opt/local \
+--with-png-dir=/opt/local \
+--with-mcrypt=/opt/local \
+--with-mysql=/usr/local/mysql \
+--with-mysqli \
+--with-pdo-mysql=/usr/local/mysql \
+--with-apxs2=/opt/local/apache2/bin/apxs \
+--with-freetype-dir=/opt/local \
+--enable-mbstring \
+--enable-sockets \
+--enable-gd-native-ttf \
+--enable-calendar \
+--enable-soap \
+--enable-shmop \
+--enable-bcmath \
+--enable-dba \
+--with-inifile \
+--enable-exif \
+--enable-ftp \
+--enable-sqlite-utf8 \
+--enable-wddx

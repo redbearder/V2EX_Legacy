@@ -1,0 +1,119 @@
+/* Project Babel
+*  Author: Livid Torvalds
+*  File: /htdocs/css_zen.css
+*  Usage: Style for Project Zen
+*  Format: 1 tab indent(4 spaces), LF, UTF-8, no-BOM
+*
+*  Subversion Keywords:
+*
+*  $Id: css_babel.css 366 2006-06-14 09:42:31Z livid $
+*  $LastChangedDate: 2006-07-06 17:02:08 +0800 (Thu, 06 Jul 2006) $
+*  $LastChangedRevision: 452 $
+*  $LastChangedBy: livid $
+*/
+
+span.zen_project {
+font-size: 14px;
+}
+
+table.zen {
+margin: 5px 0px 5px 0px;
+overflow: hidden;
+border-collapse: collapse;
+border-top: 1px solid #CCC;
+border-bottom: 1px solid #CCC;
+}
+
+table.zen td.zen_project {
+padding: 7px;
+background-color: #F9F9F9;
+border-top: 1px solid #CCC;
+}
+
+table.zen td.zen_task_todo {
+padding: 5px 3px 5px 15px;
+background-color: #FFF;
+font-size: 13px;
+color: #333;
+}
+
+table.zen td.zen_task_new {
+padding: 5px 3px 5px 15px;
+background-color: #FFF;
+font-size: 12px;
+border-bottom: 1px solid #CCC;
+color: #999;
+}
+
+table.zen td.zen_task_done {
+padding: 6px 3px 6px 20px;
+background-color: #FFF;
+color: #999;
+font-size: 12px;
+}
+
+a.zen_rm:link, a.zen_rm:active, a.zen_rm:visited {
+color: #F30;
+text-decoration: none;
+border: none;
+padding: 2px 3px 2px 3px;
+background-color: #F7F7F7;
+font-size: 10px;
+}
+
+a.zen_rm:hover {
+color: #577DE7;
+background-color: #FFF;
+border-bottom: 2px solid #577DE7;
+text-decoration: none;
+font-size: 10px;
+}
+
+a.zen_undone:link, a.zen_undone:active, a.zen_undone:visited {
+color: #093;
+text-decoration: none;
+border: none;
+padding: 2px 3px 2px 3px;
+background-color: #F7F7F7;
+font-size: 10px;
+}
+
+a.zen_undone:hover {
+color: #577DE7;
+background-color: #FFF;
+border-bottom: 2px solid #577DE7;
+text-decoration: none;
+font-size: 10px;
+}
+
+a.zen_pr:link, a.zen_pr:active, a.zen_pr:visited {
+color: #039;
+text-decoration: none;
+border: none;
+padding: 2px 3px 2px 3px;
+background-color: #F7F7F7;
+font-size: 10px;
+}
+
+a.zen_pr:hover {
+color: #577DE7;
+background-color: #FFF;
+border-bottom: 2px solid #577DE7;
+text-decoration: none;
+font-size: 10px;
+}
+
+input.zen_btn {
+background-color: #EFEFEF;
+color: #000;
+border-top: 2px solid #FFF;
+border-left: 2px solid #FFF;
+border-bottom: 2px solid #CCC;
+border-right: 2px solid #CCC;
+}
+
+form.zen {
+margin: 0px;
+padding: 0px 0px 5px 5px;
+display: block;
+}

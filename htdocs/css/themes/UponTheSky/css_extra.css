@@ -1,0 +1,70 @@
+/* Project Babel
+*  Author: Livid Torvalds
+*  File: /htdocs/css_extra.css
+*  Usage: Style for extra decorations
+*  Format: 1 tab indent(4 spaces), LF, UTF-8, no-BOM
+*
+*  Subversion Keywords:
+*
+*  $Id: css_extra.css 337 2006-06-09 09:55:18Z livid $
+*  $LastChangedDate: 2006-06-09 17:55:18 +0800 (Fri, 09 Jun 2006) $
+*  $LastChangedRevision: 337 $
+*  $LastChangedBy: livid $
+*/
+
+dl.home_topic {
+padding: 0px;
+background-color: #FFF;
+margin-top: 5px;
+font-size: 12px;
+}
+
+dl.home_topic dt {
+height: 30px;
+padding: 3px 3px 14px 3px;
+background-color: #F9F9F9;
+border-top: 1px solid #DDD;
+}
+
+dl.home_topic dd {
+padding: 15px 10px 0px 10px;
+margin: 0px;
+color: #333;
+line-height: 18px;
+}
+
+a.tpc, a.tpc:link, a.tpc:visited {
+color: #274D97;
+text-decoration: none;
+border-bottom: 2px solid #F7F7F7;
+font-size: 12px;
+}
+
+a.t, a.t:link, a.t:visited {
+color: #274D97;
+text-decoration: none;
+font-size: 12px;
+}
+
+a.t:hover, a.tpc:hover {
+color: #333;
+border-bottom: 2px solid #333;
+text-decoration: none;
+font-size: 12px;
+}
+
+a.t:active, a.tpc:active {
+color: #FFF;
+background-color: #333;
+border-bottom: 2px solid #333;
+text-decoration: none;
+font-size: 12px;
+}
+
+span.tip_h {
+font-size: 12px;
+color: #F0F0F0;
+opacity: .3;
+-moz-opacity: .3;
+filter: opacity(alpha=30%);
+}
